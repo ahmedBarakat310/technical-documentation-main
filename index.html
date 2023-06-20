@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Technical Documentation</title>
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
-    />
+    /> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Bree Serif"
@@ -59,8 +61,8 @@
           in C# to discuss the meaning of syntax
         </p>
         <pre class="preContainer">
-                <button class="copyIcon"><i class='bx bxs-copy copy-button1' ></i></button>
-                <code class="text-to-copy1">using System;
+                <button class="copyIcon"><i class='bx bxs-copy copy-button1 copy-btn' ></i></button>
+                <code class="text-to-copy1 textCopy">using System;
 namespace Hello
 {
     class MyProgram
@@ -86,13 +88,13 @@ namespace Hello
           <button class="copyIcon">
             <i class="bx bxs-copy copy-button2"></i>
           </button>
-          <div class="text-to-copy2">
+          <code class="text-to-copy2 ">
             <li>integer (int) ... 1 , 500 , -200</li>
             <li>double (double) ... 0.5 , 3.14 , -2.5</li>
             <li>string (string) ... "AAA" , "What is your name ?"</li>
             <li>character (char) ... 'A' , '+' , '5'</li>
             <li>boolean (bool) ... true , false</li>
-          </div>
+          </code>
         </ol>
       </section>
 
@@ -106,7 +108,7 @@ namespace Hello
         <pre><code>data-type variable-name = value(data) ;</code></pre>
         <p>For example :-</p>
         <pre class="preContainer">
-            <button class="copyIcon"><i class='bx bxs-copy copy-button3' ></i></button><code class="text-to-copy3">int age = 20 ;
+            <button class="copyIcon"><i class='bx bxs-copy copy-button3 copy-btn' ></i></button><code class="text-to-copy3 textCopy">int age = 20 ;
 string FirstName = "AAA" ;
 string full_name = "AAA BBB" ;
 double _degree = 80.5 ;
@@ -124,7 +126,7 @@ bool male = true ;</code></pre>
         <pre><code>(data-type) data</code></pre>
         <p>For example :-</p>
         <pre class="preContainer">
-            <button class="copyIcon"><i class='bx bxs-copy copy-button4' ></i></button><code class="text-to-copy4">double pi = 3.14 ;
+            <button class="copyIcon"><i class='bx bxs-copy copy-button4 copy-btn' ></i></button><code class="text-to-copy4 textCopy">double pi = 3.14 ;
 int myInt = (int) pi ;
 Console.WriteLine(pi) ; // 3.14
 Console.WriteLine(myInt) ; // 3</code></pre>
@@ -140,7 +142,7 @@ Console.WriteLine(myInt) ; // 3</code></pre>
         <pre><code>Console.ReadLine();</code></pre>
         <p>For example :-</p>
         <pre class="preContainer">
-            <button class="copyIcon"><i class='bx bxs-copy copy-button5' ></i></button><code class="text-to-copy5">int age ;
+            <button class="copyIcon"><i class='bx bxs-copy copy-button5 copy-btn' ></i></button><code class="text-to-copy5 textCopy">int age ;
 Console.Write("Enter your age:") ;
 age = Console.ReadLine() ;
 Console.WriteLine("You are " + age + " years old") ;</code></pre>
@@ -153,12 +155,12 @@ Console.WriteLine("You are " + age + " years old") ;</code></pre>
           is true or false(yes or no / on or off).
         </p>
         <pre class="preContainer">
-            <button class="copyIcon"><i class='bx bxs-copy copy-button6' ></i></button><code class="text-to-copy6">bool male = true ;
+            <button class="copyIcon"><i class='bx bxs-copy copy-button6 copy-btn' ></i></button><code class="text-to-copy6 textCopy">bool male = true ;
 bool student = true ;
 bool permission_accepted = false ;</code></pre>
       </section>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
     <script src="main.js"></script>
   </body>
 </html>
